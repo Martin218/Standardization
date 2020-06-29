@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="ReportTitle">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>ReportTitle</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>ReportTitle</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="VendorNo_ProcurementSupplierSelection">
+          <DataField>VendorNo_ProcurementSupplierSelection</DataField>
+        </Field>
+        <Field Name="Name_ProcurementSupplierSelection">
+          <DataField>Name_ProcurementSupplierSelection</DataField>
+        </Field>
+        <Field Name="ProcessNo_ProcurementSupplierSelection">
+          <DataField>ProcessNo_ProcurementSupplierSelection</DataField>
+        </Field>
+        <Field Name="CONDITIONSCaption">
+          <DataField>CONDITIONSCaption</DataField>
+        </Field>
+        <Field Name="ConditionOneCaption">
+          <DataField>ConditionOneCaption</DataField>
+        </Field>
+        <Field Name="ConditionTwoCaption">
+          <DataField>ConditionTwoCaption</DataField>
+        </Field>
+        <Field Name="ConditionThreeCaption">
+          <DataField>ConditionThreeCaption</DataField>
+        </Field>
+        <Field Name="ConditionFourCaption">
+          <DataField>ConditionFourCaption</DataField>
+        </Field>
+        <Field Name="ConditionFiveCaption">
+          <DataField>ConditionFiveCaption</DataField>
+        </Field>
+        <Field Name="ConditionSixCaption">
+          <DataField>ConditionSixCaption</DataField>
+        </Field>
+        <Field Name="ConditionSevenCaption">
+          <DataField>ConditionSevenCaption</DataField>
+        </Field>
+        <Field Name="ConditionEightCaption">
+          <DataField>ConditionEightCaption</DataField>
+        </Field>
+        <Field Name="ConditionNineCaption">
+          <DataField>ConditionNineCaption</DataField>
+        </Field>
+        <Field Name="Paragraph1Lbl">
+          <DataField>Paragraph1Lbl</DataField>
+        </Field>
+        <Field Name="Paragraph1Lbl2">
+          <DataField>Paragraph1Lbl2</DataField>
+        </Field>
+        <Field Name="Paragraph1Lbl3">
+          <DataField>Paragraph1Lbl3</DataField>
+        </Field>
+        <Field Name="Paragraph1Lbl4">
+          <DataField>Paragraph1Lbl4</DataField>
+        </Field>
+        <Field Name="Paragraph1Lbl5">
+          <DataField>Paragraph1Lbl5</DataField>
+        </Field>
+        <Field Name="Paragraph1Lbl6">
+          <DataField>Paragraph1Lbl6</DataField>
+        </Field>
+        <Field Name="Paragraph1Lbl7">
+          <DataField>Paragraph1Lbl7</DataField>
+        </Field>
+        <Field Name="Paragraph1Lbl8">
+          <DataField>Paragraph1Lbl8</DataField>
+        </Field>
+        <Field Name="Comp_Name">
+          <DataField>Comp_Name</DataField>
+        </Field>
+        <Field Name="Comp_Address">
+          <DataField>Comp_Address</DataField>
+        </Field>
+        <Field Name="Comp_City">
+          <DataField>Comp_City</DataField>
+        </Field>
+        <Field Name="Comp_Phone">
+          <DataField>Comp_Phone</DataField>
+        </Field>
+        <Field Name="Comp_Pic">
+          <DataField>Comp_Pic</DataField>
+        </Field>
+        <Field Name="Comp_Post">
+          <DataField>Comp_Post</DataField>
+        </Field>
+        <Field Name="DateCaption">
+          <DataField>DateCaption</DataField>
+        </Field>
+        <Field Name="ProcessNoCaption">
+          <DataField>ProcessNoCaption</DataField>
+        </Field>
+        <Field Name="SpecialLbl">
+          <DataField>SpecialLbl</DataField>
+        </Field>
+        <Field Name="Instruction_Lbl">
+          <DataField>Instruction_Lbl</DataField>
+        </Field>
+        <Field Name="Signature_Lbl">
+          <DataField>Signature_Lbl</DataField>
+        </Field>
+        <Field Name="Instruction_Lbl2">
+          <DataField>Instruction_Lbl2</DataField>
+        </Field>
+        <Field Name="Instruction_Lbl3">
+          <DataField>Instruction_Lbl3</DataField>
+        </Field>
+        <Field Name="Instruction_Lbl4">
+          <DataField>Instruction_Lbl4</DataField>
+        </Field>
+        <Field Name="Instruction_Lbl5">
+          <DataField>Instruction_Lbl5</DataField>
+        </Field>
+        <Field Name="Instruction_Lbl5_1">
+          <DataField>Instruction_Lbl5_1</DataField>
+        </Field>
+        <Field Name="Instruction_Lbl6">
+          <DataField>Instruction_Lbl6</DataField>
+        </Field>
+        <Field Name="Type_ProcurementRequestLine">
+          <DataField>Type_ProcurementRequestLine</DataField>
+        </Field>
+        <Field Name="No_ProcurementRequestLine">
+          <DataField>No_ProcurementRequestLine</DataField>
+        </Field>
+        <Field Name="Description_ProcurementRequestLine">
+          <DataField>Description_ProcurementRequestLine</DataField>
+        </Field>
+        <Field Name="Quantity_ProcurementRequestLine">
+          <DataField>Quantity_ProcurementRequestLine</DataField>
+        </Field>
+        <Field Name="Quantity_ProcurementRequestLineFormat">
+          <DataField>Quantity_ProcurementRequestLineFormat</DataField>
+        </Field>
+        <Field Name="UnitofMeasure_ProcurementRequestLine">
+          <DataField>UnitofMeasure_ProcurementRequestLine</DataField>
+        </Field>
+        <Field Name="UnitPrice_ProcurementRequestLine">
+          <DataField>UnitPrice_ProcurementRequestLine</DataField>
+        </Field>
+        <Field Name="UnitPrice_ProcurementRequestLineFormat">
+          <DataField>UnitPrice_ProcurementRequestLineFormat</DataField>
+        </Field>
+        <Field Name="Amount_ProcurementRequestLine">
+          <DataField>Amount_ProcurementRequestLine</DataField>
+        </Field>
+        <Field Name="Amount_ProcurementRequestLineFormat">
+          <DataField>Amount_ProcurementRequestLineFormat</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

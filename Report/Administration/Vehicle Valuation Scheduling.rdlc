@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="No_VehicleInsuranceScheduling">
+          <DataField>No_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="FixedAssetcarNo_VehicleInsuranceScheduling">
+          <DataField>FixedAssetcarNo_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="VehicleNumberPlate_VehicleInsuranceScheduling">
+          <DataField>VehicleNumberPlate_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="VehicleDescription_VehicleInsuranceScheduling">
+          <DataField>VehicleDescription_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="DesignatedDriver_VehicleInsuranceScheduling">
+          <DataField>DesignatedDriver_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="InsuranceCompany_VehicleInsuranceScheduling">
+          <DataField>InsuranceCompany_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="ValuationDate_VehicleInsuranceScheduling">
+          <DataField>ValuationDate_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="Comment_VehicleInsuranceScheduling">
+          <DataField>Comment_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="company_name">
+          <DataField>company_name</DataField>
+        </Field>
+        <Field Name="company_address">
+          <DataField>company_address</DataField>
+        </Field>
+        <Field Name="company_postcode">
+          <DataField>company_postcode</DataField>
+        </Field>
+        <Field Name="TypeofInsurance_VehicleInsuranceScheduling">
+          <DataField>TypeofInsurance_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="LastValuationDate_VehicleInsuranceScheduling">
+          <DataField>LastValuationDate_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="LastValuationAmount_VehicleInsuranceScheduling">
+          <DataField>LastValuationAmount_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="LastValuationAmount_VehicleInsuranceSchedulingFormat">
+          <DataField>LastValuationAmount_VehicleInsuranceSchedulingFormat</DataField>
+        </Field>
+        <Field Name="LastValuerCompany_VehicleInsuranceScheduling">
+          <DataField>LastValuerCompany_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="BranchCode_VehicleInsuranceScheduling">
+          <DataField>BranchCode_VehicleInsuranceScheduling</DataField>
+        </Field>
+        <Field Name="company_city">
+          <DataField>company_city</DataField>
+        </Field>
+        <Field Name="Picture">
+          <DataField>Picture</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

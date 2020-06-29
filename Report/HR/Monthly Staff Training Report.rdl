@@ -1,0 +1,1816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>e6bbc784-f454-4639-90c5-eca8cd8faf21</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>0.58206cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.38875cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.21749cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.07249cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.1557cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.44673cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.81208cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.39891cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.05021cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.19627cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.28292cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.46813cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.38875cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.46813cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.52104cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.44167cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.38875cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.67979cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.99688cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox10">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>No</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox10</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox12">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Employee No </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox12</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox14">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Employee Name </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox14</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox24">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Emp Date </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox24</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox22">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Job Title </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox22</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox20">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Branch </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox20</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox18">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Department </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox18</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox16">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Course /Seminar Name </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox16</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox8">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Training Institution </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox8</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox9">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Duration </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox9</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox3">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Duration Units </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox3</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox25">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Transport To From </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox25</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox27">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Daily Transport </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox27</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox21">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Night Out Allowance</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox21</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox17">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Conference Allowance </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox17</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox29">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Lunch Allowance </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox29</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox4">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Training Cost </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox4</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox6">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Total Cost </Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox6</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.6cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="serialno">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!serialno.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>serialno</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="EmployeeNo_HRTrainingRequestLines">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!EmployeeNo_HRTrainingRequestLines.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>EmployeeNo_HRTrainingRequestLines</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="EmployeeName_HRTrainingRequestLines">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!EmployeeName_HRTrainingRequestLines.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>EmployeeName_HRTrainingRequestLines</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="EmploymentDate_HRTrainingRequestLines">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!EmploymentDate_HRTrainingRequestLines.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>M/d/yy</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>EmploymentDate_HRTrainingRequestLines</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="JobTitle_HRTrainingRequestLines">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!JobTitle_HRTrainingRequestLines.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>JobTitle_HRTrainingRequestLines</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Branch_TrainingRequestLine">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Branch_TrainingRequestLine.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Branch_TrainingRequestLine</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Department_TrainingRequestLine">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Department_TrainingRequestLine.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Department_TrainingRequestLine</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="CourseSeminarName_TrainingRequest">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!CourseSeminarName_TrainingRequest.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>CourseSeminarName_TrainingRequest</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TrainingInstitution_TrainingRequest">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!TrainingInstitution_TrainingRequest.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>TrainingInstitution_TrainingRequest</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Duration_TrainingRequest">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Duration_TrainingRequest.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Duration_TrainingRequest</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="DurationUnits_TrainingRequest">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!DurationUnits_TrainingRequest.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>DurationUnits_TrainingRequest</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TransportToFromBranch_HRTrainingRequestLines">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!TransportToFromBranch_HRTrainingRequestLines.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>TransportToFromBranch_HRTrainingRequestLines</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="DailyTransport_HRTrainingRequestLines">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!DailyTransport_HRTrainingRequestLines.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>DailyTransport_HRTrainingRequestLines</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="NightOutAllowance_HRTrainingRequestLines">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!NightOutAllowance_HRTrainingRequestLines.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>NightOutAllowance_HRTrainingRequestLines</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="ConferenceAllowance_HRTrainingRequestLines">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!ConferenceAllowance_HRTrainingRequestLines.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>ConferenceAllowance_HRTrainingRequestLines</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="LunchAllowance_HRTrainingRequestLines">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!LunchAllowance_HRTrainingRequestLines.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>LunchAllowance_HRTrainingRequestLines</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TrainingCost_HRTrainingRequestLines">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!TrainingCost_HRTrainingRequestLines.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>TrainingCost_HRTrainingRequestLines</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TotalCost_TrainingRequestLine">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!TotalCost_TrainingRequestLine.Value</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>TotalCost_TrainingRequestLine</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                </TablixMember>
+                <TablixMember>
+                  <Group Name="Details" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet_Result</DataSetName>
+            <Top>0.36725cm</Top>
+            <Left>0.34078cm</Left>
+            <Height>1.59688cm</Height>
+            <Width>27.95987cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+        </ReportItems>
+        <Height>2.67229cm</Height>
+        <Style />
+      </Body>
+      <Width>28.45974cm</Width>
+      <Page>
+        <PageHeader>
+          <Height>3.17499cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="CompanyInformation_Name">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!CompanyInformation_Name.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>11pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>CompanyInformation_Name</rd:DefaultName>
+              <Top>0.05083in</Top>
+              <Left>3.52132in</Left>
+              <Height>0.25in</Height>
+              <Width>3.14583in</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="CompanyInformation_Address">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!CompanyInformation_Address.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>11pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>CompanyInformation_Address</rd:DefaultName>
+              <Top>0.32861in</Top>
+              <Left>3.52132in</Left>
+              <Height>0.25in</Height>
+              <Width>3.14583in</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox101">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!HeaderText.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                        <TextDecoration>Underline</TextDecoration>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox101</rd:DefaultName>
+              <Top>0.77527in</Top>
+              <Left>3.01139in</Left>
+              <Height>0.40056in</Height>
+              <Width>4.05333in</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Image Name="Image1">
+              <Source>Database</Source>
+              <Value>=First(Fields!CompanyInformation_Picture.Value, "DataSet_Result")</Value>
+              <MIMEType>image/jpeg</MIMEType>
+              <Sizing>FitProportional</Sizing>
+              <Top>0.05083in</Top>
+              <Left>0.14458in</Left>
+              <Height>1.125in</Height>
+              <Width>2.08333in</Width>
+              <ZIndex>3</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+              </Style>
+            </Image>
+            <Textbox Name="Textbox2">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=User!UserID</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox2</rd:DefaultName>
+              <Top>0.19939cm</Top>
+              <Left>23.12835cm</Left>
+              <Height>0.6cm</Height>
+              <Width>5.17229cm</Width>
+              <ZIndex>4</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox5">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Globals!ExecutionTime</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox2</rd:DefaultName>
+              <Top>0.79939cm</Top>
+              <Left>23.12835cm</Left>
+              <Height>0.6cm</Height>
+              <Width>5.17229cm</Width>
+              <ZIndex>5</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>1.53458cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox1">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>="Page " &amp; Globals!OverallPageNumber &amp; " of " &amp; Globals!OverallTotalPages</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox1</rd:DefaultName>
+              <Top>0.07056cm</Top>
+              <Left>9.20399cm</Left>
+              <Height>0.6cm</Height>
+              <Width>6.64421cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <PageHeight>21cm</PageHeight>
+        <PageWidth>29.7cm</PageWidth>
+        <LeftMargin>0cm</LeftMargin>
+        <RightMargin>0cm</RightMargin>
+        <TopMargin>0cm</TopMargin>
+        <BottomMargin>0cm</BottomMargin>
+        <ColumnSpacing>1.27cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <EmbeddedImages>
+    <EmbeddedImage Name="Chai">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>dc1a42be-9212-4948-b0b4-4ac3245ae66f</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="EmployeeNo_HRTrainingRequestLines">
+          <DataField>EmployeeNo_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="EmployeeName_HRTrainingRequestLines">
+          <DataField>EmployeeName_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="DailyTransport_HRTrainingRequestLines">
+          <DataField>DailyTransport_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="DailyTransport_HRTrainingRequestLinesFormat">
+          <DataField>DailyTransport_HRTrainingRequestLinesFormat</DataField>
+        </Field>
+        <Field Name="Transport_HRTrainingRequestLines">
+          <DataField>Transport_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="Transport_HRTrainingRequestLinesFormat">
+          <DataField>Transport_HRTrainingRequestLinesFormat</DataField>
+        </Field>
+        <Field Name="JobTitle_HRTrainingRequestLines">
+          <DataField>JobTitle_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="EmploymentDate_HRTrainingRequestLines">
+          <DataField>EmploymentDate_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="ConfirmationDate_HRTrainingRequestLines">
+          <DataField>ConfirmationDate_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="Grade_HRTrainingRequestLines">
+          <DataField>Grade_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="TransportToFromBranch_HRTrainingRequestLines">
+          <DataField>TransportToFromBranch_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="TransportToFromBranch_HRTrainingRequestLinesFormat">
+          <DataField>TransportToFromBranch_HRTrainingRequestLinesFormat</DataField>
+        </Field>
+        <Field Name="NightOutAllowance_HRTrainingRequestLines">
+          <DataField>NightOutAllowance_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="NightOutAllowance_HRTrainingRequestLinesFormat">
+          <DataField>NightOutAllowance_HRTrainingRequestLinesFormat</DataField>
+        </Field>
+        <Field Name="Branch_TrainingRequestLine">
+          <DataField>Branch_TrainingRequestLine</DataField>
+        </Field>
+        <Field Name="Department_TrainingRequestLine">
+          <DataField>Department_TrainingRequestLine</DataField>
+        </Field>
+        <Field Name="TrainingCost_HRTrainingRequestLines">
+          <DataField>TrainingCost_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="TrainingCost_HRTrainingRequestLinesFormat">
+          <DataField>TrainingCost_HRTrainingRequestLinesFormat</DataField>
+        </Field>
+        <Field Name="TotalCost_HRTrainingRequestLines">
+          <DataField>TotalCost_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="TotalCost_HRTrainingRequestLinesFormat">
+          <DataField>TotalCost_HRTrainingRequestLinesFormat</DataField>
+        </Field>
+        <Field Name="EmploymentStatus_HRTrainingRequestLines">
+          <DataField>EmploymentStatus_HRTrainingRequestLines</DataField>
+        </Field>
+        <Field Name="TrainingRequestNo_TrainingRequestLine">
+          <DataField>TrainingRequestNo_TrainingRequestLine</DataField>
+        </Field>
+        <Field Name="TotalCost_TrainingRequestLine">
+          <DataField>TotalCost_TrainingRequestLine</DataField>
+        </Field>
+        <Field Name="TotalCost_TrainingRequestLineFormat">
+          <DataField>TotalCost_TrainingRequestLineFormat</DataField>
+        </Field>
+        <Field Name="CompanyInformation_Name">
+          <DataField>CompanyInformation_Name</DataField>
+        </Field>
+        <Field Name="CompanyInformation_Address">
+          <DataField>CompanyInformation_Address</DataField>
+        </Field>
+        <Field Name="CompanyInformation_PostCode">
+          <DataField>CompanyInformation_PostCode</DataField>
+        </Field>
+        <Field Name="CompanyInformation_City">
+          <DataField>CompanyInformation_City</DataField>
+        </Field>
+        <Field Name="CompanyInformation_Picture">
+          <DataField>CompanyInformation_Picture</DataField>
+        </Field>
+        <Field Name="serialno">
+          <DataField>serialno</DataField>
+        </Field>
+        <Field Name="sumamount">
+          <DataField>sumamount</DataField>
+        </Field>
+        <Field Name="sumamountFormat">
+          <DataField>sumamountFormat</DataField>
+        </Field>
+        <Field Name="No_TrainingRequest">
+          <DataField>No_TrainingRequest</DataField>
+        </Field>
+        <Field Name="TrainingDescription_TrainingRequest">
+          <DataField>TrainingDescription_TrainingRequest</DataField>
+        </Field>
+        <Field Name="CourseSeminarName_TrainingRequest">
+          <DataField>CourseSeminarName_TrainingRequest</DataField>
+        </Field>
+        <Field Name="TrainingInstitution_TrainingRequest">
+          <DataField>TrainingInstitution_TrainingRequest</DataField>
+        </Field>
+        <Field Name="Venue_TrainingRequest">
+          <DataField>Venue_TrainingRequest</DataField>
+        </Field>
+        <Field Name="Duration_TrainingRequest">
+          <DataField>Duration_TrainingRequest</DataField>
+        </Field>
+        <Field Name="Duration_TrainingRequestFormat">
+          <DataField>Duration_TrainingRequestFormat</DataField>
+        </Field>
+        <Field Name="DurationUnits_TrainingRequest">
+          <DataField>DurationUnits_TrainingRequest</DataField>
+        </Field>
+        <Field Name="StartDate_TrainingRequest">
+          <DataField>StartDate_TrainingRequest</DataField>
+        </Field>
+        <Field Name="EndDate_TrainingRequest">
+          <DataField>EndDate_TrainingRequest</DataField>
+        </Field>
+        <Field Name="CostofTraining_TrainingRequest">
+          <DataField>CostofTraining_TrainingRequest</DataField>
+        </Field>
+        <Field Name="CostofTraining_TrainingRequestFormat">
+          <DataField>CostofTraining_TrainingRequestFormat</DataField>
+        </Field>
+        <Field Name="TotalCostofTraining_TrainingRequest">
+          <DataField>TotalCostofTraining_TrainingRequest</DataField>
+        </Field>
+        <Field Name="TotalCostofTraining_TrainingRequestFormat">
+          <DataField>TotalCostofTraining_TrainingRequestFormat</DataField>
+        </Field>
+        <Field Name="HeaderText">
+          <DataField>HeaderText</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

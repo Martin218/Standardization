@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="AvailableCar_VehicleBooking1">
+          <DataField>AvailableCar_VehicleBooking1</DataField>
+        </Field>
+        <Field Name="User_VehicleBooking1">
+          <DataField>User_VehicleBooking1</DataField>
+        </Field>
+        <Field Name="BranchCode_VehicleBooking1">
+          <DataField>BranchCode_VehicleBooking1</DataField>
+        </Field>
+        <Field Name="PeriodofUse_VehicleBooking1">
+          <DataField>PeriodofUse_VehicleBooking1</DataField>
+        </Field>
+        <Field Name="BookingDate_VehicleBooking1">
+          <DataField>BookingDate_VehicleBooking1</DataField>
+        </Field>
+        <Field Name="DriverRequired_VehicleBooking1">
+          <DataField>DriverRequired_VehicleBooking1</DataField>
+        </Field>
+        <Field Name="AssignDriver_VehicleBooking1">
+          <DataField>AssignDriver_VehicleBooking1</DataField>
+        </Field>
+        <Field Name="company_name">
+          <DataField>company_name</DataField>
+        </Field>
+        <Field Name="comapny_address">
+          <DataField>comapny_address</DataField>
+        </Field>
+        <Field Name="company_postcode">
+          <DataField>company_postcode</DataField>
+        </Field>
+        <Field Name="RequiredToDate_VehicleBooking1">
+          <DataField>RequiredToDate_VehicleBooking1</DataField>
+        </Field>
+        <Field Name="RequiredDate_VehicleBooking1">
+          <DataField>RequiredDate_VehicleBooking1</DataField>
+        </Field>
+        <Field Name="company_city">
+          <DataField>company_city</DataField>
+        </Field>
+        <Field Name="Picture">
+          <DataField>Picture</DataField>
+        </Field>
+        <Field Name="VehicleReturnDate_VehicleBooking">
+          <DataField>VehicleReturnDate_VehicleBooking</DataField>
+        </Field>
+        <Field Name="VehicleReturntime_VehicleBooking">
+          <DataField>VehicleReturntime_VehicleBooking</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

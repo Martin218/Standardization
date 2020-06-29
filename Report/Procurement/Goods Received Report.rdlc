@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="ReportTitle">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>ReportTitle</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>ReportTitle</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="CompanyInfoHomePage">
+          <DataField>CompanyInfoHomePage</DataField>
+        </Field>
+        <Field Name="CompanyInfoEmail">
+          <DataField>CompanyInfoEmail</DataField>
+        </Field>
+        <Field Name="CompanyInfoVATRegNo">
+          <DataField>CompanyInfoVATRegNo</DataField>
+        </Field>
+        <Field Name="CompanyInfoGiroNo">
+          <DataField>CompanyInfoGiroNo</DataField>
+        </Field>
+        <Field Name="CompanyInfoBankName">
+          <DataField>CompanyInfoBankName</DataField>
+        </Field>
+        <Field Name="CompanyInfoBankAccNo">
+          <DataField>CompanyInfoBankAccNo</DataField>
+        </Field>
+        <Field Name="CompanyInfoAddress">
+          <DataField>CompanyInfoAddress</DataField>
+        </Field>
+        <Field Name="CompanyInfoCity">
+          <DataField>CompanyInfoCity</DataField>
+        </Field>
+        <Field Name="CompanyInfoPicture">
+          <DataField>CompanyInfoPicture</DataField>
+        </Field>
+        <Field Name="CompanyInfoPostal">
+          <DataField>CompanyInfoPostal</DataField>
+        </Field>
+        <Field Name="CompanyInfoName">
+          <DataField>CompanyInfoName</DataField>
+        </Field>
+        <Field Name="BuyfromVendorNo_PurchRcptHeader">
+          <DataField>BuyfromVendorNo_PurchRcptHeader</DataField>
+        </Field>
+        <Field Name="No_PurchRcptHeader">
+          <DataField>No_PurchRcptHeader</DataField>
+        </Field>
+        <Field Name="PaytoVendorNo_PurchRcptHeader">
+          <DataField>PaytoVendorNo_PurchRcptHeader</DataField>
+        </Field>
+        <Field Name="PaytoName_PurchRcptHeader">
+          <DataField>PaytoName_PurchRcptHeader</DataField>
+        </Field>
+        <Field Name="PaytoAddress_PurchRcptHeader">
+          <DataField>PaytoAddress_PurchRcptHeader</DataField>
+        </Field>
+        <Field Name="PaytoCity_PurchRcptHeader">
+          <DataField>PaytoCity_PurchRcptHeader</DataField>
+        </Field>
+        <Field Name="OrderDate_PurchRcptHeader">
+          <DataField>OrderDate_PurchRcptHeader</DataField>
+        </Field>
+        <Field Name="PostingDate_PurchRcptHeader">
+          <DataField>PostingDate_PurchRcptHeader</DataField>
+        </Field>
+        <Field Name="PostingDescription_PurchRcptHeader">
+          <DataField>PostingDescription_PurchRcptHeader</DataField>
+        </Field>
+        <Field Name="Type_PurchRcptLine">
+          <DataField>Type_PurchRcptLine</DataField>
+        </Field>
+        <Field Name="DocumentNo_PurchRcptLine">
+          <DataField>DocumentNo_PurchRcptLine</DataField>
+        </Field>
+        <Field Name="No_PurchRcptLine">
+          <DataField>No_PurchRcptLine</DataField>
+        </Field>
+        <Field Name="Description_PurchRcptLine">
+          <DataField>Description_PurchRcptLine</DataField>
+        </Field>
+        <Field Name="UnitofMeasure_PurchRcptLine">
+          <DataField>UnitofMeasure_PurchRcptLine</DataField>
+        </Field>
+        <Field Name="Quantity_PurchRcptLine">
+          <DataField>Quantity_PurchRcptLine</DataField>
+        </Field>
+        <Field Name="Quantity_PurchRcptLineFormat">
+          <DataField>Quantity_PurchRcptLineFormat</DataField>
+        </Field>
+        <Field Name="DirectUnitCost_PurchRcptLine">
+          <DataField>DirectUnitCost_PurchRcptLine</DataField>
+        </Field>
+        <Field Name="DirectUnitCost_PurchRcptLineFormat">
+          <DataField>DirectUnitCost_PurchRcptLineFormat</DataField>
+        </Field>
+        <Field Name="UnitCostLCY_PurchRcptLine">
+          <DataField>UnitCostLCY_PurchRcptLine</DataField>
+        </Field>
+        <Field Name="UnitCostLCY_PurchRcptLineFormat">
+          <DataField>UnitCostLCY_PurchRcptLineFormat</DataField>
+        </Field>
+        <Field Name="PhoneNoCaption">
+          <DataField>PhoneNoCaption</DataField>
+        </Field>
+        <Field Name="HomePageCaption">
+          <DataField>HomePageCaption</DataField>
+        </Field>
+        <Field Name="VATRegNoCaption">
+          <DataField>VATRegNoCaption</DataField>
+        </Field>
+        <Field Name="GiroNoCaption">
+          <DataField>GiroNoCaption</DataField>
+        </Field>
+        <Field Name="BankNameCaption">
+          <DataField>BankNameCaption</DataField>
+        </Field>
+        <Field Name="AccNoCaption">
+          <DataField>AccNoCaption</DataField>
+        </Field>
+        <Field Name="UOMCaptionLbl">
+          <DataField>UOMCaptionLbl</DataField>
+        </Field>
+        <Field Name="QtyCaptionLbl">
+          <DataField>QtyCaptionLbl</DataField>
+        </Field>
+        <Field Name="DescCaptionLbl">
+          <DataField>DescCaptionLbl</DataField>
+        </Field>
+        <Field Name="PaytoVenNoCaptionLbl">
+          <DataField>PaytoVenNoCaptionLbl</DataField>
+        </Field>
+        <Field Name="VendorNameCaptionLbl">
+          <DataField>VendorNameCaptionLbl</DataField>
+        </Field>
+        <Field Name="ItemNoCaptionLbl">
+          <DataField>ItemNoCaptionLbl</DataField>
+        </Field>
+        <Field Name="PayToVenAddCaptionLbl">
+          <DataField>PayToVenAddCaptionLbl</DataField>
+        </Field>
+        <Field Name="DocDateCaptionLbl">
+          <DataField>DocDateCaptionLbl</DataField>
+        </Field>
+        <Field Name="TotalCaptionLbl">
+          <DataField>TotalCaptionLbl</DataField>
+        </Field>
+        <Field Name="Signature1CaptionLbl">
+          <DataField>Signature1CaptionLbl</DataField>
+        </Field>
+        <Field Name="ReceivedByCaptionLbl">
+          <DataField>ReceivedByCaptionLbl</DataField>
+        </Field>
+        <Field Name="BroughtByCaptionLbl">
+          <DataField>BroughtByCaptionLbl</DataField>
+        </Field>
+        <Field Name="DashCaptionLbl">
+          <DataField>DashCaptionLbl</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

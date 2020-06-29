@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Page 398075597 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Cheque Clearance</source>
+          <target>New Cheque Clearance</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheq. Clearance List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cheque Clearance</source>
+          <target>Cheque Clearance</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2880604040 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending Cheque Clearance</source>
+          <target>Pending Cheque Clearance</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pending Cheq. Clearance List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Reports,Approval Request,Category5,Category6,Category7,Category8</source>
+          <target>New,Process,Reports,Approval Request,Category5,Category6,Category7,Category8</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - Action 383335270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send A&amp;pproval Request</source>
+          <target>Send A&amp;pproval Request</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - Action SendApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - Action 383335270 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request approval of the document.</source>
+          <target>Request approval of the document.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - Action SendApprovalRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3771723508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved Cheque Clearance</source>
+          <target>Approved Cheque Clearance</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Approved Cheq. Clearance List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 43570743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rejected Cheque Clearance</source>
+          <target>Rejected Cheque Clearance</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rejected Cheq. Clearance List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1092727198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Cheque Clearance</source>
+          <target>Posted Cheque Clearance</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Cheq. Clearance List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2045102053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cheque Reason Codes</source>
+          <target>Cheque Reason Codes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheq. Reason Codes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3068589392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cheque Books</source>
+          <target>Cheque Books</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Book List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3352396344 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Reports,Approval Request,Category5,Category6,Category7,Category8</source>
+          <target>New,Process,Reports,Approval Request,Category5,Category6,Category7,Category8</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Book Application - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 3352396344 - Action 383335270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send A&amp;pproval Request</source>
+          <target>Send A&amp;pproval Request</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Book Application - Action SendApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3352396344 - Action 383335270 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request approval of the document.</source>
+          <target>Request approval of the document.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Book Application - Action SendApprovalRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 202619434 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Cheque Book Applications</source>
+          <target>New Cheque Book Applications</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Book Application List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 730841562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending Cheque Book Applications</source>
+          <target>Pending Cheque Book Applications</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pending CB Application List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3356201942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved Cheque Book Applications</source>
+          <target>Approved Cheque Book Applications</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Approved CB Application List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1812848161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rejected Cheque Book Applications</source>
+          <target>Rejected Cheque Book Applications</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rejected CB Application List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3352396344 - Action 858296388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel Approval Re&amp;quest</source>
+          <target>Cancel Approval Re&amp;quest</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Book Application - Action CancelApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - Action 858296388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel Approval Re&amp;quest</source>
+          <target>Cancel Approval Re&amp;quest</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - Action CancelApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3352396344 - Action 858296388 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel the approval request.</source>
+          <target>Cancel the approval request.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Book Application - Action CancelApprovalRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - Action 858296388 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel the approval request.</source>
+          <target>Cancel the approval request.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - Action CancelApprovalRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to validate PRM Entries for Document No. %1?</source>
+          <target>Do you want to validate PRM Entries for Document No. %1?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PRM Entries for Document No. %1 have been validated successfully.</source>
+          <target>PRM Entries for Document No. %1 have been validated successfully.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PRM Entries for Document No. have not been validated.</source>
+          <target>PRM Entries for Document No. have not been validated.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to Post PRM Entries for Document No. %1?</source>
+          <target>Do you want to Post PRM Entries for Document No. %1?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PRM Entries for Document No. %1 have been posted successfully.</source>
+          <target>PRM Entries for Document No. %1 have been posted successfully.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PRM Entries for Document No. have not been posted.</source>
+          <target>PRM Entries for Document No. have not been posted.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Table 2053529668 - Field 513339096 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Pending Approval,Approved,Rejected,Posted</source>
+          <target>New,Pending Approval,Approved,Rejected,Posted</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cheque Clearance Header - Field Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 3055342033 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No lines exist.</source>
+          <target>No lines exist.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cheque Clearance - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Table 2053529668 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>COOP Cheque Clearance on </source>
+          <target>COOP Cheque Clearance on </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cheque Clearance Header - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Table 2053529668 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete not allowed.</source>
+          <target>Delete not allowed.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cheque Clearance Header - NamedType Text001</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

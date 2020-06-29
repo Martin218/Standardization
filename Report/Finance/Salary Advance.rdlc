@@ -1,0 +1,2058 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>2feffd60-9840-4621-bc72-9078dc93bf6a</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Rectangle Name="Rectangle1">
+            <ReportItems>
+              <Textbox Name="Textbox18">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!PREPARED_BYCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.31323cm</Top>
+                <Left>0.07061cm</Left>
+                <Height>1.23472cm</Height>
+                <Width>3.23668cm</Width>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox19">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!CHECKED_BYCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>1.72434cm</Top>
+                <Left>0.03528cm</Left>
+                <Height>1.19944cm</Height>
+                <Width>3.30729cm</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Image Name="Image4">
+                <Source>Database</Source>
+                <Value>=First(Fields!SenderSignature.Value, "DataSet_Result")</Value>
+                <MIMEType>image/bmp</MIMEType>
+                <Sizing>FitProportional</Sizing>
+                <Top>0.12332in</Top>
+                <Left>4.03874in</Left>
+                <Height>0.5in</Height>
+                <Width>1.40697in</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Image Name="Image6">
+                <Source>Database</Source>
+                <Value>=First(Fields!FirstApproverSignature.Value, "DataSet_Result")</Value>
+                <MIMEType>image/bmp</MIMEType>
+                <Sizing>FitProportional</Sizing>
+                <Top>0.66499in</Top>
+                <Left>4.03874in</Left>
+                <Height>0.5in</Height>
+                <Width>1.40697in</Width>
+                <ZIndex>3</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Image Name="Image7">
+                <Source>Database</Source>
+                <Value>=First(Fields!SecondApproverSignature.Value, "DataSet_Result")</Value>
+                <MIMEType>image/bmp</MIMEType>
+                <Sizing>FitProportional</Sizing>
+                <Top>1.20665in</Top>
+                <Left>4.03874in</Left>
+                <Height>0.5in</Height>
+                <Width>1.40697in</Width>
+                <ZIndex>4</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Textbox Name="Textbox20">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!SIGNATURECaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.31323cm</Top>
+                <Left>7.82417cm</Left>
+                <Height>1.27cm</Height>
+                <Width>2.43423cm</Width>
+                <ZIndex>5</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox21">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!SIGNATURECaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>1.72434cm</Top>
+                <Left>7.82417cm</Left>
+                <Height>1.27cm</Height>
+                <Width>2.43423cm</Width>
+                <ZIndex>6</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox23">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!SIGNATURECaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>3.0649cm</Top>
+                <Left>7.82417cm</Left>
+                <Height>1.27cm</Height>
+                <Width>2.43423cm</Width>
+                <ZIndex>7</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox24">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!DATECaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.31323cm</Top>
+                <Left>13.90266cm</Left>
+                <Height>1.27cm</Height>
+                <Width>1.48685cm</Width>
+                <ZIndex>8</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox25">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!DATECaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>1.72434cm</Top>
+                <Left>13.90266cm</Left>
+                <Height>1.27cm</Height>
+                <Width>1.48685cm</Width>
+                <ZIndex>9</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox28">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!DATECaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>3.02962cm</Top>
+                <Left>13.93794cm</Left>
+                <Height>1.27cm</Height>
+                <Width>1.45157cm</Width>
+                <ZIndex>10</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox29">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!SenderID.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.31323cm</Top>
+                <Left>3.41312cm</Left>
+                <Height>1.27cm</Height>
+                <Width>4.23465cm</Width>
+                <ZIndex>11</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox30">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!FirstApproverID.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>1.65378cm</Top>
+                <Left>3.41318cm</Left>
+                <Height>1.27cm</Height>
+                <Width>4.23465cm</Width>
+                <ZIndex>12</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox31">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!SecondApproverID.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>3.0649cm</Top>
+                <Left>3.41312cm</Left>
+                <Height>1.27cm</Height>
+                <Width>4.23465cm</Width>
+                <ZIndex>13</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox32">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!SenderDate.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>g</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.27795cm</Top>
+                <Left>15.56589cm</Left>
+                <Height>1.27cm</Height>
+                <Width>3.60892cm</Width>
+                <ZIndex>14</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox33">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!SecondApproverDate.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>g</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>1.68906cm</Top>
+                <Left>15.56596cm</Left>
+                <Height>1.27cm</Height>
+                <Width>3.60892cm</Width>
+                <ZIndex>15</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox34">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!SecondApproverDate.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>g</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>2.99434cm</Top>
+                <Left>15.56589cm</Left>
+                <Height>1.27cm</Height>
+                <Width>3.60892cm</Width>
+                <ZIndex>16</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox40">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!APPROVED_BYCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>3.0649cm</Top>
+                <Left>0.07061cm</Left>
+                <Height>1.23472cm</Height>
+                <Width>3.27196cm</Width>
+                <ZIndex>17</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Top</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+            </ReportItems>
+            <KeepTogether>true</KeepTogether>
+            <Top>2.96524in</Top>
+            <Left>0.35642in</Left>
+            <Height>1.73252in</Height>
+            <Width>7.60347in</Width>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <TopBorder>
+                <Color>Black</Color>
+              </TopBorder>
+              <BottomBorder>
+                <Color>Black</Color>
+              </BottomBorder>
+              <LeftBorder>
+                <Color>Black</Color>
+              </LeftBorder>
+              <RightBorder>
+                <Color>Black</Color>
+              </RightBorder>
+            </Style>
+          </Rectangle>
+          <Line Name="Line3">
+            <Top>7.35531cm</Top>
+            <Left>0.90531cm</Left>
+            <Height>0cm</Height>
+            <Width>19.47151cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+                <Width>2pt</Width>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox4">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">=First(Fields!AmountInText_1_.Value, "DataSet_Result")</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>2.50691in</Top>
+            <Left>2.16634in</Left>
+            <Height>0.25in</Height>
+            <Width>5.80047in</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox6">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value EvaluationMode="Auto">=First(Fields!AmountInWords_CaptionLbl.Value, "DataSet_Result")</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Right</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox6</rd:DefaultName>
+            <Top>2.50691in</Top>
+            <Left>0.38924in</Left>
+            <Height>0.25in</Height>
+            <Width>1.70766in</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line4">
+            <Top>6.02276cm</Top>
+            <Left>0.90531cm</Left>
+            <Height>0cm</Height>
+            <Width>19.47151cm</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+                <Width>2pt</Width>
+              </Border>
+            </Style>
+          </Line>
+          <Rectangle Name="Rectangle3">
+            <ReportItems>
+              <Textbox Name="Textbox36">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!PV_NoCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.17545cm</Top>
+                <Left>0.1203cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.30729cm</Width>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox37">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Employee_NameCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.95184cm</Top>
+                <Left>0.1203cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.30729cm</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox56">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Imprest_No.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.17545cm</Top>
+                <Left>3.53342cm</Left>
+                <Height>0.6cm</Height>
+                <Width>8.22109cm</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox57">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!EmployeeName.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>#,0.00;(#,0.00)</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.91656cm</Top>
+                <Left>3.49814cm</Left>
+                <Height>0.6cm</Height>
+                <Width>8.22109cm</Width>
+                <ZIndex>3</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox58">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Payment_DateCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.17545cm</Top>
+                <Left>11.89562cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.23674cm</Width>
+                <ZIndex>4</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox59">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Last_Pay_MonthCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.95184cm</Top>
+                <Left>11.86034cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.30729cm</Width>
+                <ZIndex>5</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox60">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Posted_Date.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>MM/dd/yyyy</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.17545cm</Top>
+                <Left>15.27347cm</Left>
+                <Height>0.6cm</Height>
+                <Width>4.02164cm</Width>
+                <ZIndex>6</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox61">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Last_Pay_Month.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>MM/dd/yyyy</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>0.95184cm</Top>
+                <Left>15.27347cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.98636cm</Width>
+                <ZIndex>7</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox62">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!No_OfMonthsCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>4.09983cm</Top>
+                <Left>0.1203cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.30729cm</Width>
+                <ZIndex>8</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox64">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!DepartmentCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>1.72823cm</Top>
+                <Left>0.1203cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.30729cm</Width>
+                <ZIndex>9</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox65">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Departmen_Name.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>#,0.00;(#,0.00)</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>1.69295cm</Top>
+                <Left>3.53342cm</Left>
+                <Height>0.6cm</Height>
+                <Width>8.22109cm</Width>
+                <ZIndex>10</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox66">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Gross_PayCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>1.72823cm</Top>
+                <Left>11.89562cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.30729cm</Width>
+                <ZIndex>11</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox67">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!GrossPay.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>#,0.00;(#,0.00)</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>1.72823cm</Top>
+                <Left>15.27347cm</Left>
+                <Height>0.6cm</Height>
+                <Width>4.02164cm</Width>
+                <ZIndex>12</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox68">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Approved_AmountCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>2.46934cm</Top>
+                <Left>0.1203cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.30729cm</Width>
+                <ZIndex>13</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox69">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Approved_Amount.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>#,0.00;(#,0.00)</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>2.46934cm</Top>
+                <Left>3.53342cm</Left>
+                <Height>0.6cm</Height>
+                <Width>8.22109cm</Width>
+                <ZIndex>14</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox70">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Basic_payCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>2.50462cm</Top>
+                <Left>11.89562cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.30729cm</Width>
+                <ZIndex>15</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox71">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Basic_Salary.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>#,0.00;(#,0.00)</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>2.50462cm</Top>
+                <Left>15.27347cm</Left>
+                <Height>0.6cm</Height>
+                <Width>4.02164cm</Width>
+                <ZIndex>16</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox72">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Monthly_Repayment.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>#,0.00;(#,0.00)</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>3.24573cm</Top>
+                <Left>3.49094cm</Left>
+                <Height>0.6cm</Height>
+                <Width>8.22109cm</Width>
+                <ZIndex>17</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox73">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Repaying_MonthsCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>3.35872cm</Top>
+                <Left>0.1203cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.30729cm</Width>
+                <ZIndex>18</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox74">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!One_ThirdCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>3.28101cm</Top>
+                <Left>11.89562cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.26481cm</Width>
+                <ZIndex>19</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox75">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Onethird.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>#,0.00;(#,0.00)</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>3.28101cm</Top>
+                <Left>15.27347cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.97916cm</Width>
+                <ZIndex>20</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox55">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!PC_Description.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>4.80566cm</Top>
+                <Left>3.5687cm</Left>
+                <Height>0.6cm</Height>
+                <Width>15.76169cm</Width>
+                <ZIndex>21</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox54">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Reason_RequestCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>4.84094cm</Top>
+                <Left>0.1203cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.30729cm</Width>
+                <ZIndex>22</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox76">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!No_Of_Months.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>0;(0)</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>4.02212cm</Top>
+                <Left>3.53342cm</Left>
+                <Height>0.6cm</Height>
+                <Width>8.22109cm</Width>
+                <ZIndex>23</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox77">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Net_PayCaptionLbl.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>4.02927cm</Top>
+                <Left>11.89562cm</Left>
+                <Height>0.6cm</Height>
+                <Width>3.27202cm</Width>
+                <ZIndex>24</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox78">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value EvaluationMode="Auto">=First(Fields!Net_Pay.Value, "DataSet_Result")</Value>
+                        <Style>
+                          <FontSize>9pt</FontSize>
+                          <Format>#,0.00;(#,0.00)</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox10</rd:DefaultName>
+                <Top>4.02212cm</Top>
+                <Left>15.27347cm</Left>
+                <Height>0.6cm</Height>
+                <Width>4.05692cm</Width>
+                <ZIndex>25</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <VerticalAlign>Bottom</VerticalAlign>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                </Style>
+              </Textbox>
+            </ReportItems>
+            <KeepTogether>true</KeepTogether>
+            <Top>0.05556in</Top>
+            <Left>0.35642in</Left>
+            <Height>2.24616in</Height>
+            <Width>7.66596in</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <TopBorder>
+                <Color>Black</Color>
+              </TopBorder>
+              <BottomBorder>
+                <Color>Black</Color>
+              </BottomBorder>
+              <LeftBorder>
+                <Color>Black</Color>
+              </LeftBorder>
+              <RightBorder>
+                <Color>Black</Color>
+              </RightBorder>
+            </Style>
+          </Rectangle>
+        </ReportItems>
+        <Height>14.73739cm</Height>
+        <Style />
+      </Body>
+      <Width>20.9439cm</Width>
+      <Page>
+        <PageHeader>
+          <Height>1.42708in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Image Name="Image1">
+              <Source>Database</Source>
+              <Value>=First(Fields!CompInfo_Picture.Value, "DataSet_Result")</Value>
+              <MIMEType>image/bmp</MIMEType>
+              <Sizing>FitProportional</Sizing>
+              <Top>0.18224in</Top>
+              <Left>0.47325in</Left>
+              <Height>1.18761in</Height>
+              <Width>1.72917in</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+              </Style>
+            </Image>
+            <Textbox Name="Textbox10">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value EvaluationMode="Auto">=First(Fields!PAYMENT_VOUCHERCaptionLbl.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>16pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox10</rd:DefaultName>
+              <Top>0.98323cm</Top>
+              <Left>7.21831cm</Left>
+              <Height>0.6cm</Height>
+              <Width>7.23187cm</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Bottom</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox13">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value EvaluationMode="Auto">=First(Fields!CompInfo_Name.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>9pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox10</rd:DefaultName>
+              <Top>1.61851cm</Top>
+              <Left>7.21831cm</Left>
+              <Height>0.6cm</Height>
+              <Width>7.23187cm</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox17">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value EvaluationMode="Auto">=First(Fields!ContactInfo.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>9pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox10</rd:DefaultName>
+              <Top>2.21851cm</Top>
+              <Left>7.21832cm</Left>
+              <Height>0.6cm</Height>
+              <Width>7.23187cm</Width>
+              <ZIndex>3</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Bottom</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox2">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value EvaluationMode="Auto">=Globals!ExecutionTime</Value>
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox1</rd:DefaultName>
+              <Top>0.3871in</Top>
+              <Left>6.35571in</Left>
+              <Height>0.13542in</Height>
+              <Width>1.66667in</Width>
+              <ZIndex>4</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox1">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value EvaluationMode="Auto">=User!UserID</Value>
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox1</rd:DefaultName>
+              <Top>0.18224in</Top>
+              <Left>6.35571in</Left>
+              <Height>0.13542in</Height>
+              <Width>1.66667in</Width>
+              <ZIndex>5</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="PAYMENT_VOUCHERCaptionLbl">
+          <DataField>PAYMENT_VOUCHERCaptionLbl</DataField>
+        </Field>
+        <Field Name="Payment_ModeCaptionLbl">
+          <DataField>Payment_ModeCaptionLbl</DataField>
+        </Field>
+        <Field Name="Payment_DateCaptionLbl">
+          <DataField>Payment_DateCaptionLbl</DataField>
+        </Field>
+        <Field Name="Cheque_NoCaptionLbl">
+          <DataField>Cheque_NoCaptionLbl</DataField>
+        </Field>
+        <Field Name="Cheque_DateCaptionLbl">
+          <DataField>Cheque_DateCaptionLbl</DataField>
+        </Field>
+        <Field Name="PV_NoCaptionLbl">
+          <DataField>PV_NoCaptionLbl</DataField>
+        </Field>
+        <Field Name="PAYEECaptionLbl">
+          <DataField>PAYEECaptionLbl</DataField>
+        </Field>
+        <Field Name="DescriptionCaptionLbl">
+          <DataField>DescriptionCaptionLbl</DataField>
+        </Field>
+        <Field Name="Net_AmountCaptionLbl">
+          <DataField>Net_AmountCaptionLbl</DataField>
+        </Field>
+        <Field Name="CompInfo_Name">
+          <DataField>CompInfo_Name</DataField>
+        </Field>
+        <Field Name="CompanyInformation">
+          <DataField>CompanyInformation</DataField>
+        </Field>
+        <Field Name="ContactInfo">
+          <DataField>ContactInfo</DataField>
+        </Field>
+        <Field Name="CompInfo_Picture">
+          <DataField>CompInfo_Picture</DataField>
+        </Field>
+        <Field Name="Imprest_No">
+          <DataField>Imprest_No</DataField>
+        </Field>
+        <Field Name="Posted_Date">
+          <DataField>Posted_Date</DataField>
+        </Field>
+        <Field Name="PC_Description">
+          <DataField>PC_Description</DataField>
+        </Field>
+        <Field Name="Approved_Amount">
+          <DataField>Approved_Amount</DataField>
+        </Field>
+        <Field Name="Approved_AmountFormat">
+          <DataField>Approved_AmountFormat</DataField>
+        </Field>
+        <Field Name="EmployeeName">
+          <DataField>EmployeeName</DataField>
+        </Field>
+        <Field Name="Departmen_Name">
+          <DataField>Departmen_Name</DataField>
+        </Field>
+        <Field Name="Monthly_Repayment">
+          <DataField>Monthly_Repayment</DataField>
+        </Field>
+        <Field Name="Monthly_RepaymentFormat">
+          <DataField>Monthly_RepaymentFormat</DataField>
+        </Field>
+        <Field Name="Basic_Salary">
+          <DataField>Basic_Salary</DataField>
+        </Field>
+        <Field Name="Basic_SalaryFormat">
+          <DataField>Basic_SalaryFormat</DataField>
+        </Field>
+        <Field Name="Last_Pay_Month">
+          <DataField>Last_Pay_Month</DataField>
+        </Field>
+        <Field Name="Onethird">
+          <DataField>Onethird</DataField>
+        </Field>
+        <Field Name="OnethirdFormat">
+          <DataField>OnethirdFormat</DataField>
+        </Field>
+        <Field Name="GrossPay">
+          <DataField>GrossPay</DataField>
+        </Field>
+        <Field Name="GrossPayFormat">
+          <DataField>GrossPayFormat</DataField>
+        </Field>
+        <Field Name="Net_Pay">
+          <DataField>Net_Pay</DataField>
+        </Field>
+        <Field Name="Net_PayFormat">
+          <DataField>Net_PayFormat</DataField>
+        </Field>
+        <Field Name="No_Of_Months">
+          <DataField>No_Of_Months</DataField>
+        </Field>
+        <Field Name="DepartmentCaptionLbl">
+          <DataField>DepartmentCaptionLbl</DataField>
+        </Field>
+        <Field Name="AmountInText_1_">
+          <DataField>AmountInText_1_</DataField>
+        </Field>
+        <Field Name="AmountInWords_CaptionLbl">
+          <DataField>AmountInWords_CaptionLbl</DataField>
+        </Field>
+        <Field Name="LineAccount_NameCaptionLbl">
+          <DataField>LineAccount_NameCaptionLbl</DataField>
+        </Field>
+        <Field Name="LIneDescriptionCaptionLbl">
+          <DataField>LIneDescriptionCaptionLbl</DataField>
+        </Field>
+        <Field Name="LineLNet_AmountCaptionLbl">
+          <DataField>LineLNet_AmountCaptionLbl</DataField>
+        </Field>
+        <Field Name="LIneW_taxCaptionLbl">
+          <DataField>LIneW_taxCaptionLbl</DataField>
+        </Field>
+        <Field Name="LineW_VATCaptionLbl">
+          <DataField>LineW_VATCaptionLbl</DataField>
+        </Field>
+        <Field Name="LIneGross_amountCaptionLbl">
+          <DataField>LIneGross_amountCaptionLbl</DataField>
+        </Field>
+        <Field Name="PREPARED_BYCaptionLbl">
+          <DataField>PREPARED_BYCaptionLbl</DataField>
+        </Field>
+        <Field Name="CHECKED_BYCaptionLbl">
+          <DataField>CHECKED_BYCaptionLbl</DataField>
+        </Field>
+        <Field Name="APPROVED_BYCaptionLbl">
+          <DataField>APPROVED_BYCaptionLbl</DataField>
+        </Field>
+        <Field Name="PAYMENT_RECEIVED_BYCaptionLbl">
+          <DataField>PAYMENT_RECEIVED_BYCaptionLbl</DataField>
+        </Field>
+        <Field Name="SIGNATURECaptionLbl">
+          <DataField>SIGNATURECaptionLbl</DataField>
+        </Field>
+        <Field Name="DATECaptionLbl">
+          <DataField>DATECaptionLbl</DataField>
+        </Field>
+        <Field Name="Employee_NameCaptionLbl">
+          <DataField>Employee_NameCaptionLbl</DataField>
+        </Field>
+        <Field Name="Approved_AmountCaptionLbl">
+          <DataField>Approved_AmountCaptionLbl</DataField>
+        </Field>
+        <Field Name="Repaying_MonthsCaptionLbl">
+          <DataField>Repaying_MonthsCaptionLbl</DataField>
+        </Field>
+        <Field Name="Remaining_AmountCaptionLbl">
+          <DataField>Remaining_AmountCaptionLbl</DataField>
+        </Field>
+        <Field Name="Gross_PayCaptionLbl">
+          <DataField>Gross_PayCaptionLbl</DataField>
+        </Field>
+        <Field Name="Basic_payCaptionLbl">
+          <DataField>Basic_payCaptionLbl</DataField>
+        </Field>
+        <Field Name="Net_PayCaptionLbl">
+          <DataField>Net_PayCaptionLbl</DataField>
+        </Field>
+        <Field Name="One_ThirdCaptionLbl">
+          <DataField>One_ThirdCaptionLbl</DataField>
+        </Field>
+        <Field Name="No_OfMonthsCaptionLbl">
+          <DataField>No_OfMonthsCaptionLbl</DataField>
+        </Field>
+        <Field Name="Last_Pay_MonthCaptionLbl">
+          <DataField>Last_Pay_MonthCaptionLbl</DataField>
+        </Field>
+        <Field Name="Reason_RequestCaptionLbl">
+          <DataField>Reason_RequestCaptionLbl</DataField>
+        </Field>
+        <Field Name="FirstApproverID">
+          <DataField>FirstApproverID</DataField>
+        </Field>
+        <Field Name="FirstApproverDate">
+          <DataField>FirstApproverDate</DataField>
+        </Field>
+        <Field Name="FirstApproverSignature">
+          <DataField>FirstApproverSignature</DataField>
+        </Field>
+        <Field Name="SecondApproverID">
+          <DataField>SecondApproverID</DataField>
+        </Field>
+        <Field Name="SecondApproverDate">
+          <DataField>SecondApproverDate</DataField>
+        </Field>
+        <Field Name="SecondApproverSignature">
+          <DataField>SecondApproverSignature</DataField>
+        </Field>
+        <Field Name="ThirdApproverID">
+          <DataField>ThirdApproverID</DataField>
+        </Field>
+        <Field Name="ThirdApproverDate">
+          <DataField>ThirdApproverDate</DataField>
+        </Field>
+        <Field Name="ThirdApproverSignature">
+          <DataField>ThirdApproverSignature</DataField>
+        </Field>
+        <Field Name="SenderID">
+          <DataField>SenderID</DataField>
+        </Field>
+        <Field Name="SenderDate">
+          <DataField>SenderDate</DataField>
+        </Field>
+        <Field Name="SenderSignature">
+          <DataField>SenderSignature</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>
